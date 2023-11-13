@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Estilos para centrar el pie de página */
+.footer-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;    /* Centra verticalmente */
+  height: 100vh;          /* Asegura que el pie de página se extienda por toda la altura de la ventana */
+}
+
+/* Estilos para el pie de página en sí */
+footer {
+  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  color: white;           /* Cambia el color del texto según tus preferencias */
+  padding: 20px;
+}
+
+/* Otras reglas de estilo para el contenido del pie de página si es necesario */
+
+/* App.module.css */
+.card {
+  width: 240px;
+  height: 240px;
+  background: linear-gradient(to bottom right, violet, fuchsia);
+}
+
+.cardBody {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.svg {
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.indicator {
+  stroke: white;
+}
+
+.track {
+  stroke: rgba(255, 255, 255, 0.1);
+}
+
+.value {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
