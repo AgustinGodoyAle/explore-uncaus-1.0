@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <NextUIProvider>
         <NextThemesProvider attribute="class" defaultTheme="dark">
-          <main className="dark text-foreground bg-background relative container mx-auto max-w-7xl z-10 px-4 min-h-[calc(100vh_-_64px_-_108px)] mb-12 flex-grow">
+          <main className="dark text-foreground bg-background relative container mx-auto max-w-7xl z-10 min-h-[calc(100vh_-_64px_-_108px)] mb-12 flex-grow">
             <App />
           </main>
         </NextThemesProvider>

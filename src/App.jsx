@@ -19,6 +19,7 @@ function App() {
       <Navbar2 />
       <Routes>
         <Route path='/' element={<HomeScreen></HomeScreen>}></Route>
+        
         <Route path='/edificios' element={<EdificiosScreen></EdificiosScreen>}></Route>
         <Route path='/eventos' element={<EventosScreen></EventosScreen>}></Route>
 

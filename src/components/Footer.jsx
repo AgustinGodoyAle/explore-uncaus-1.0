@@ -3,14 +3,12 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div class="relative overflow-y-hidden flex items-center border border-default-200 dark:border-default-100 px-2 py-4 rounded-lg overflow-hidden">
-        <div class="max-w-full py-4 px-2 w-full h-full scrollbar-hide overflow-x-scroll">
-          <div>
-            <p>&copy; 2023 Explore UNCAus. Todos los derechos reservados.</p>
-            <div><a href="#">Facebook</a></div>
-            <div><a href="#">Twitter</a></div>
-            <div><a href="#">Instagram</a></div>
-          </div>
+      <div className="relative flex items-center justify-center bg-transparent py-4 px-2 w-full h-full">
+        <div className="max-w-full py-4 px-2 w-full text-center font-bold">
+          <p>&copy; 2023 Explore UNCAus.</p>
+          <p>Desarrolladores</p>
+          <div><a href="#">Narela: delvis.N.LOT@gmail.com</a></div>
+          <div><a href="#">Agustín: agustingodoyomg@gmail.com</a></div>
         </div>
       </div>
     </footer>
