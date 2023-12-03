@@ -2,6 +2,7 @@ import React from "react";
 import Card1 from "../components/Card1.jsx"
 import CardText from "../components/CardText.jsx"
 import { Link, Button } from "@nextui-org/react";
+import logoexplore from "/images/logo3.png"
 
 
 export const HomeScreen = () => {
@@ -17,7 +18,7 @@ export const HomeScreen = () => {
 
       <div class="relative overflow-y-hidden flex items-center  border-default-200 dark:border-default-100 py-6 rounded-lg overflow-hidden">
         <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <img src="images/logoExplore.jpeg" alt="logoExplore" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+          <img src={logoexplore} alt="logoExplore" style={{ maxWidth: "100%", maxHeight: "100%" }} />
         </div>
         <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
           <h1 className="font-bold text-xl">Queremos que puedas encontrar todas las instalación de la universidad.</h1>
