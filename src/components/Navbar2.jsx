@@ -16,7 +16,7 @@ export default function App() {
                     <div style={{ maxWidth: "200px" }}>
                         <Link color="secondary" href="/">
                             <img
-                                src="../src/images/logo3.png"
+                                src="images/logo3.png"
                                 alt="logo3"
                                 style={{ maxWidth: "100%", maxHeight: "70px" }}
                             />
@@ -30,7 +30,7 @@ export default function App() {
                     <div style={{ maxWidth: "200px" }}>
                         <Link color="secondary" href="/">
                             <img
-                                src="../src/images/logo3.png"
+                                src="images/logo3.png"
                                 alt="logo3"
                                 style={{ maxWidth: "100%", maxHeight: "70px" }}
                             />

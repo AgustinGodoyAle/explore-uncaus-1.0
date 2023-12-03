@@ -14,7 +14,7 @@ export const EdificiosScreen = () => {
           <Card2
             title="Edificio Tecnológico"
             subtitle="Cuenta con 5 pisos"
-            imageUrl="src/images/edificios/edtecno.jpg"
+            imageUrl="images/edtecno.jpg"
             buttonText="Recorrer"
           />
         </div>
@@ -22,7 +22,7 @@ export const EdificiosScreen = () => {
           <Card2
             title="Edificio Principal"
             subtitle="Es por donde se ingresa a nuestra universidad"
-            imageUrl="src/images/edificios/edprincipal.jpg"
+            imageUrl="images/edprincipal.jpg"
             buttonText="Recorrer"
           />
         </div>
@@ -30,7 +30,7 @@ export const EdificiosScreen = () => {
           <Card2
             title="Estadio Arena UNCAus"
             subtitle="Cuenta con aulas en su interior"
-            imageUrl="src/images/edificios/arenauncaus1.jpg"
+            imageUrl="images/arenauncaus1.jpg"
             buttonText="Recorrer"
           />
         </div>

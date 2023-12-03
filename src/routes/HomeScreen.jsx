@@ -17,7 +17,7 @@ export const HomeScreen = () => {
 
       <div class="relative overflow-y-hidden flex items-center  border-default-200 dark:border-default-100 py-6 rounded-lg overflow-hidden">
         <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <img src="../src/images/logoExplore.jpeg" alt="logoExplore" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+          <img src="images/logoExplore.jpeg" alt="logoExplore" style={{ maxWidth: "100%", maxHeight: "100%" }} />
         </div>
         <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
           <h1 className="font-bold text-xl">Queremos que puedas encontrar todas las instalación de la universidad.</h1>
@@ -39,7 +39,7 @@ export const HomeScreen = () => {
             title="Buscá tu punto de interés y seguí las indicaciones en el mapa"
             title1="¡Llegá a donde quieras rápidamente!"
             subtitle="No pierdas tiempo preguntando"
-            imageUrl="src/images/estudiante1.jpg"
+            imageUrl="images/estudiante1.jpg"
             imageAlt="Otra imagen"
           />
         </div>
@@ -48,7 +48,7 @@ export const HomeScreen = () => {
             title="Inscribite a tus clases y consultá día, horario, y lugar"
             title1="¡Conocé donde cursas!"
             subtitle="Encontrá tu aula"
-            imageUrl="src/images/aulas.jpg"
+            imageUrl="images/aulas.jpg"
             imageAlt="Otra imagen"
           />
         </div>
@@ -57,7 +57,7 @@ export const HomeScreen = () => {
             title="Accedé como invitado y consultá la ubicación que deseas"
             title1="¡No te pierdas ningún evento!"
             subtitle="No conocer el las instalaciones ya no es un problema"
-            imageUrl="src/images/eventos.jpg"
+            imageUrl="images/eventos.jpg"
             imageAlt="Otra imagen"
           />
         </div>
@@ -72,7 +72,7 @@ export const HomeScreen = () => {
           <Button href="https://github.com/nextui-org/nextui" as={Link} color="primary" showAnchorIcon variant="solid">Descargar</Button>
         </div>
         <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <img src="../src/images/estudiantes.jpg" alt="estudiantes" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+          <img src="images/estudiantes.jpg" alt="estudiantes" style={{ maxWidth: "100%", maxHeight: "100%" }} />
         </div>
       </div>
 
