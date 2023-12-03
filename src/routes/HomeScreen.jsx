@@ -12,93 +12,135 @@ import estudiantes from "/images/estudiantes.jpg"
 export const HomeScreen = () => {
   return (
     <>
-      <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
-        <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b text-center">
-          <p>Conocé cada punto de tu universidad.</p>
-          <p>Encontrá tus clases y exámenes de la forma más rápida.</p>
-          <p>Todo desde tu celular.</p>
-        </h1>
-      </div>
+      <section>
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
+          <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-4xl bg-clip-text text-transparent bg-gradient-to-b text-center">
+            <p className="py-2">Conocé cada punto de tu universidad.</p>
+            <p className="py-2">Encontrá tus clases y exámenes de la forma más rápida.</p>
+            <p className="py-2">Todo desde tu celular.</p>
+          </h1>
+        </div>
 
-      <div class="relative overflow-y-hidden flex items-center  border-default-200 dark:border-default-100 py-6 rounded-lg overflow-hidden">
-        <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <img src={logoexplore} alt="logoExplore" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+        <div class="relative flex items-center justify-center border-default-200 dark:border-default-100 py-4 rounded-lg overflow-hidden">
+          <div class="max-w-full h-full text-center">
+            <div style={{ display: "inline-block", textAlign: "center" }}>
+              <img
+                src={logoexplore}
+                alt="logoExplore"
+                style={{
+                  maxWidth: "100%",
+                  maxHeight: "100%",
+                  margin: "auto",
+                  display: "block"
+                }}
+              />
+            </div>
+          </div>
         </div>
-        <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <h1 className="font-bold text-xl">Queremos que puedas encontrar todas las instalación de la universidad.</h1>
-          <h1 className="font-bold text-base">Sabemos que es dificil encontrar donde son tus clases y tus exámenes.</h1>
-          <p className="font-bold text-base ">Es por esto que desarrollamos una forma sencilla de hacerlo.</p>
-          <small className="text-default-500">Nuestra aplicación</small>
-        </div>
-      </div>
 
-      <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
-        <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b text-center">
-          Te ofrecemos
-        </h1>
-      </div>
+        <div class="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-4 rounded-lg overflow-hidden">
+          <div class="max-w-full py-4 w-full h-full scrollbar-hide overflow-x-scroll text-center">
+            <h1 className="font-bold text-base">Queremos que puedas encontrar todas las instalaciones de la universidad.</h1>
+            <h1 className="font-bold text-base">Sabemos que es difícil encontrar dónde son tus clases y tus exámenes.</h1>
+            <p className="font-bold text-base">Es por esto que desarrollamos una forma sencilla de hacerlo.</p>
+            <small className="text-default-500">Nuestra aplicación</small>
+          </div>
+        </div>
+      </section>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div className="max-w-full py-4 px-2 h-full">
-          <Card1
-            title="Buscá tu punto de interés y seguí las indicaciones en el mapa"
-            title1="¡Llegá a donde quieras rápidamente!"
-            subtitle="No pierdas tiempo preguntando"
-            imageUrl={estudiante}
-            imageAlt="Otra imagen"
-          />
+      <section>
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
+          <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b text-center">
+            Te ofrecemos
+          </h1>
         </div>
-        <div className="max-w-full py-4 px-2 h-full">
-          <Card1
-            title="Inscribite a tus clases y consultá día, horario, y lugar"
-            title1="¡Conocé donde cursas!"
-            subtitle="Encontrá tu aula"
-            imageUrl={aulas}
-            imageAlt="Otra imagen"
-          />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="max-w-full py-4 px-2 h-full">
+            <Card1
+              title="Buscá tu punto de interés y seguí las indicaciones en el mapa"
+              title1="¡Llegá a donde quieras rápidamente!"
+              subtitle="No pierdas tiempo preguntando"
+              imageUrl={estudiante}
+              imageAlt="estudiante"
+            />
+          </div>
+          <div className="max-w-full py-4 px-2 h-full">
+            <Card1
+              title="Inscribite a tus clases y consultá día, horario, y lugar"
+              title1="¡Conocé donde cursas!"
+              subtitle="Encontrá tu aula"
+              imageUrl={aulas}
+              imageAlt="aulas"
+            />
+          </div>
+          <div className="max-w-full py-4 px-2 h-full">
+            <Card1
+              title="Accedé como invitado y consultá la ubicación que deseas"
+              title1="¡No te pierdas ningún evento!"
+              subtitle="No conocer las instalaciones ya no es un problema"
+              imageUrl={eventos}
+              imageAlt="eventos"
+            />
+          </div>
         </div>
-        <div className="max-w-full py-4 px-2 h-full">
-          <Card1
-            title="Accedé como invitado y consultá la ubicación que deseas"
-            title1="¡No te pierdas ningún evento!"
-            subtitle="No conocer el las instalaciones ya no es un problema"
-            imageUrl={eventos}
-            imageAlt="Otra imagen"
-          />
+      </section>
+
+      <section>
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
+          <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b text-center">
+            <p className="py-2">¡Descargala ya!</p>
+          </h1>
         </div>
-      </div>
+
+        <div class="relative overflow-y-hidden flex items-center  border-default-200 dark:border-default-100 py-6 rounded-lg overflow-hidden">
+          <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
+            <h1 className="py-2 font-bold text-xl">Escaneá el QR para descargarla en tu celular.</h1>
+            <p className="py-2 font-bold text-base ">Tambien podes hacer click en el siguiente botón.</p>
+            <Button href="https://github.com/nextui-org/nextui" as={Link} color="primary" showAnchorIcon variant="solid">Descargar</Button>
+          </div>
+          <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
+            <img src={estudiantes} alt="estudiantes" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+          </div>
+        </div>
+
+      </section>
 
 
-      <div class="relative overflow-y-hidden flex items-center  border-default-200 dark:border-default-100 py-6 rounded-lg overflow-hidden">
-        <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <h1 className="font-bold text-xl">¡Descargala ya!</h1>
-          <h1 className="font-bold text-base">Escaneá el QR para descargarla en tu celular.</h1>
-          <p className="font-bold text-base ">Tambien podes hacer click en el siguiente botón.</p>
-          <Button href="https://github.com/nextui-org/nextui" as={Link} color="primary" showAnchorIcon variant="solid">Descargar</Button>
+      <section>
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
+          <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b text-center">
+            <p className="py-2">Nosotros</p>
+          </h1>
         </div>
-        <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <img src={estudiantes} alt="estudiantes" style={{ maxWidth: "100%", maxHeight: "100%" }} />
-        </div>
-      </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-        <div class="max-w-full py-4 px-2 w-full h-full scrollbar-hide overflow-x-scroll">
-          <CardText
-            name="Narela Lotoski"
-            username="delvis.N.LOT@gmail.com"
-            message="Explore UNCAus busca dar solución a nuevos alumnos e invitados que desconocen como llegar a los distintos puntos de la universidad"
-            avatarUrl="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-          />
+        <div class="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-4 rounded-lg overflow-hidden">
+          <div class="max-w-full py-2 w-full h-full scrollbar-hide overflow-x-scroll text-center">
+            <h1 className="font-bold text-base">Somos estudiantes de Ingeniería en Sistemas de la Universidad Nacional del Chaco Austral</h1>
+            <h1 className="font-bold text-base">Nuestra idea surgió de ver a tantos ingresantes e incluso estudiantes avanzados que no logran unicarse en nuestra universidad</h1>
+            <small className="text-default-500">Esperamos solucionar este problema mediante nuestra aplicación</small>
+          </div>
         </div>
-        <div class="max-w-full py-4 px-2 w-full h-full scrollbar-hide overflow-x-scroll">
-          <CardText
-            name="Agustín Godoy"
-            username="agustingodoyomg@gmail.com"
-            message="Con este sistema queremos que cada una de las persona que se encuentre en nuestra universidad se sienta cómoda"
-            avatarUrl="https://i.pravatar.cc/150?u=a04258114e29026302d"
-          />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+          <div class="max-w-full py-4 px-2 w-full h-full scrollbar-hide overflow-x-scroll">
+            <CardText
+              name="Narela Lotoski"
+              username="delvis.N.LOT@gmail.com"
+              message="Explore UNCAus busca dar solución a nuevos alumnos e invitados que desconocen como llegar a los distintos puntos de la universidad"
+              avatarUrl="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+            />
+          </div>
+          <div class="max-w-full py-4 px-2 w-full h-full scrollbar-hide overflow-x-scroll">
+            <CardText
+              name="Agustín Godoy"
+              username="agustingodoyomg@gmail.com"
+              message="Con este sistema queremos que cada una de las persona que se encuentre en nuestra universidad se sienta cómoda"
+              avatarUrl="https://i.pravatar.cc/150?u=a04258114e29026302d"
+            />
+          </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }
