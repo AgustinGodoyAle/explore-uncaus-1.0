@@ -13,11 +13,10 @@ export const HomeScreen = () => {
   return (
     <>
       <section>
-        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
-          <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-4xl bg-clip-text text-transparent bg-gradient-to-b text-center">
-            <p className="py-2">Conocé cada punto de tu universidad.</p>
-            <p className="py-2">Encontrá tus clases y exámenes de la forma más rápida.</p>
-            <p className="py-2">Todo desde tu celular.</p>
+
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden">
+          <h1 className="responsive-text tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-4xl bg-clip-text text-transparent bg-gradient-to-b text-center">
+            <p className="responsive-text">Conocé cada punto de tu universidad.</p>
           </h1>
         </div>
 
@@ -38,11 +37,17 @@ export const HomeScreen = () => {
           </div>
         </div>
 
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden">
+          <h1 className="responsive-text tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-4xl bg-clip-text text-transparent bg-gradient-to-b text-center">
+            <p className="py-2">Encontrá tus clases y exámenes de la forma más rápida.</p>
+            <p className="py-2">Todo desde tu celular.</p>
+          </h1>
+        </div>
+
+
         <div class="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-4 rounded-lg overflow-hidden">
           <div class="max-w-full py-4 w-full h-full scrollbar-hide overflow-x-scroll text-center">
-            <h1 className="font-bold text-base">Queremos que puedas encontrar todas las instalaciones de la universidad.</h1>
-            <h1 className="font-bold text-base">Sabemos que es difícil encontrar dónde son tus clases y tus exámenes.</h1>
-            <p className="font-bold text-base">Es por esto que desarrollamos una forma sencilla de hacerlo.</p>
+            <p className="font-bold text-base">Desarrollamos una forma sencilla de hacerlo.</p>
             <small className="text-default-500">Nuestra aplicación</small>
           </div>
         </div>
@@ -87,13 +92,13 @@ export const HomeScreen = () => {
       </section>
 
       <section>
-        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 px-2 rounded-lg overflow-hidden ">
           <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b text-center">
             <p className="py-2">¡Descargala ya!</p>
           </h1>
         </div>
 
-        <div class="relative overflow-y-hidden flex items-center  border-default-200 dark:border-default-100 py-6 rounded-lg overflow-hidden">
+        <div class="relative overflow-y-hidden flex items-center  border-default-200 dark:border-default-100 py-6 px-2 rounded-lg overflow-hidden">
           <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
             <h1 className="py-2 font-bold text-xl">Escaneá el QR para descargarla en tu celular.</h1>
             <p className="py-2 font-bold text-base ">Tambien podes hacer click en el siguiente botón.</p>
@@ -108,13 +113,13 @@ export const HomeScreen = () => {
 
 
       <section>
-        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 rounded-lg overflow-hidden ">
+        <div className="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-10 px-2 rounded-lg overflow-hidden ">
           <h1 className="tracking-tight inline font-bold from-white to-[#b249f8] text-[2.1rem] lg:text-5xl bg-clip-text text-transparent bg-gradient-to-b text-center">
             <p className="py-2">Nosotros</p>
           </h1>
         </div>
 
-        <div class="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-4 rounded-lg overflow-hidden">
+        <div class="relative overflow-y-hidden flex items-center justify-center border-default-200 dark:border-default-100 py-4 px-2 rounded-lg overflow-hidden">
           <div class="max-w-full py-2 w-full h-full scrollbar-hide overflow-x-scroll text-center">
             <h1 className="font-bold text-base">Somos estudiantes de Ingeniería en Sistemas de la Universidad Nacional del Chaco Austral</h1>
             <h1 className="font-bold text-base">Nuestra idea surgió de ver a tantos ingresantes e incluso estudiantes avanzados que no logran unicarse en nuestra universidad</h1>

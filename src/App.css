@@ -90,3 +90,15 @@ footer {
   font-weight: 600;
   color: white;
 }
+ 
+.responsive-text {
+  font-size: 1em; /* Tamaño de fuente base */
+
+  @media (min-width: 640px) {
+    font-size: 1.2em; /* Ajusta el tamaño de fuente para pantallas más grandes */
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.5em; /* Ajusta el tamaño de fuente para pantallas aún más grandes */
+  }
+}
