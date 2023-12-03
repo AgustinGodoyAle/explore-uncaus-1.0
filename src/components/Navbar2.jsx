@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
+import logo3 from "/images/logo3.png"
 
 export default function App() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -16,7 +17,7 @@ export default function App() {
                     <div style={{ maxWidth: "200px" }}>
                         <Link color="secondary" href="/">
                             <img
-                                src="images/logo3.png"
+                                src={logo3}
                                 alt="logo3"
                                 style={{ maxWidth: "100%", maxHeight: "70px" }}
                             />
@@ -30,7 +31,7 @@ export default function App() {
                     <div style={{ maxWidth: "200px" }}>
                         <Link color="secondary" href="/">
                             <img
-                                src="images/logo3.png"
+                                src={logo3}
                                 alt="logo3"
                                 style={{ maxWidth: "100%", maxHeight: "70px" }}
                             />

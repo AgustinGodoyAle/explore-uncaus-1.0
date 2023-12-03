@@ -3,6 +3,10 @@ import Card1 from "../components/Card1.jsx"
 import CardText from "../components/CardText.jsx"
 import { Link, Button } from "@nextui-org/react";
 import logoexplore from "/images/logo3.png"
+import estudiante from "/images/estudiante1.jpg"
+import aulas from "/images/aulas.jpg"
+import eventos from "/images/eventos.jpg"
+import estudiantes from "/images/estudiantes.jpg"
 
 
 export const HomeScreen = () => {
@@ -40,7 +44,7 @@ export const HomeScreen = () => {
             title="Buscá tu punto de interés y seguí las indicaciones en el mapa"
             title1="¡Llegá a donde quieras rápidamente!"
             subtitle="No pierdas tiempo preguntando"
-            imageUrl="images/estudiante1.jpg"
+            imageUrl={estudiante}
             imageAlt="Otra imagen"
           />
         </div>
@@ -49,7 +53,7 @@ export const HomeScreen = () => {
             title="Inscribite a tus clases y consultá día, horario, y lugar"
             title1="¡Conocé donde cursas!"
             subtitle="Encontrá tu aula"
-            imageUrl="images/aulas.jpg"
+            imageUrl={aulas}
             imageAlt="Otra imagen"
           />
         </div>
@@ -58,7 +62,7 @@ export const HomeScreen = () => {
             title="Accedé como invitado y consultá la ubicación que deseas"
             title1="¡No te pierdas ningún evento!"
             subtitle="No conocer el las instalaciones ya no es un problema"
-            imageUrl="images/eventos.jpg"
+            imageUrl={eventos}
             imageAlt="Otra imagen"
           />
         </div>
@@ -73,7 +77,7 @@ export const HomeScreen = () => {
           <Button href="https://github.com/nextui-org/nextui" as={Link} color="primary" showAnchorIcon variant="solid">Descargar</Button>
         </div>
         <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-          <img src="images/estudiantes.jpg" alt="estudiantes" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+          <img src={estudiantes} alt="estudiantes" style={{ maxWidth: "100%", maxHeight: "100%" }} />
         </div>
       </div>
 

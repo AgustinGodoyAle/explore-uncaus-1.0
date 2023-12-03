@@ -1,5 +1,8 @@
 import React from 'react'
 import Card2 from '../components/Card2'
+import edprincipal from "/images/edprincipal.jpg"
+import edtecno from "/images/edtecno.jpg"
+import arenauncaus1 from "/images/arenauncaus1.jpg"
 
 export const EdificiosScreen = () => {
   return (
@@ -14,7 +17,7 @@ export const EdificiosScreen = () => {
           <Card2
             title="Edificio Tecnológico"
             subtitle="Cuenta con 5 pisos"
-            imageUrl="images/edtecno.jpg"
+            imageUrl={edtecno}
             buttonText="Recorrer"
           />
         </div>
@@ -22,7 +25,7 @@ export const EdificiosScreen = () => {
           <Card2
             title="Edificio Principal"
             subtitle="Es por donde se ingresa a nuestra universidad"
-            imageUrl="images/edprincipal.jpg"
+            imageUrl={edprincipal}
             buttonText="Recorrer"
           />
         </div>
@@ -30,7 +33,7 @@ export const EdificiosScreen = () => {
           <Card2
             title="Estadio Arena UNCAus"
             subtitle="Cuenta con aulas en su interior"
-            imageUrl="images/arenauncaus1.jpg"
+            imageUrl={arenauncaus1}
             buttonText="Recorrer"
           />
         </div>
