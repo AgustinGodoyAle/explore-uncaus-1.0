@@ -7,6 +7,7 @@ import estudiante from "/images/estudiante1.jpg"
 import aulas from "/images/aulas.jpg"
 import eventos from "/images/eventos.jpg"
 import estudiantes from "/images/estudiantes.jpg"
+import qr from "/images/QR.png"
 
 
 export const HomeScreen = () => {
@@ -102,10 +103,10 @@ export const HomeScreen = () => {
           <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
             <h1 className="py-2 font-bold text-xl">Escaneá el QR para descargarla en tu celular.</h1>
             <p className="py-2 font-bold text-base ">Tambien podes hacer click en el siguiente botón.</p>
-            <Button href="https://github.com/nextui-org/nextui" as={Link} color="primary" showAnchorIcon variant="solid">Descargar</Button>
+            <Button href="https://drive.google.com/file/d/1g3o3tPQ1pQv2oLA1ZsHiPEHX8Z0TlJwq/view?usp=drive_link" as={Link} color="primary" showAnchorIcon variant="solid">Descargar</Button>
           </div>
-          <div class="max-w-full py-4  w-full h-full scrollbar-hide overflow-x-scroll">
-            <img src={estudiantes} alt="estudiantes" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+          <div class="max-w-full py-3 w-full h-full scrollbar-hide overflow-x-scroll">
+            <img src={qr} alt="qr" style={{ maxWidth: "55%", maxHeight: "55%" }} />
           </div>
         </div>
 
@@ -140,7 +141,7 @@ export const HomeScreen = () => {
             <CardText
               name="Agustín Godoy"
               username="agustingodoyomg@gmail.com"
-              message="Con este sistema queremos que cada una de las persona que se encuentre en nuestra universidad se sienta cómoda"
+              message="Con este sistema queremos que cada una de las personas que se encuentre en nuestra universidad se sienta cómoda"
               avatarUrl="https://i.pravatar.cc/150?u=a04258114e29026302d"
             />
           </div>

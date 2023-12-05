@@ -28,7 +28,7 @@ export default function App() {
           />
         </NavbarContent>
 
-        {/* NavbarBrand for mobile */}
+        {/* NavbarBrand for mobile
         <NavbarContent className="sm:hidden pr-3" justify="center">
           <NavbarBrand>
             <div style={{ maxWidth: "200px" }}>
@@ -42,7 +42,7 @@ export default function App() {
             </div>
           </NavbarBrand>
         </NavbarContent>
-
+      */}
         <NavbarMenu>
           <NavbarMenuItem>
             <Link href="/edificios" aria-current="page" color="secondary">
@@ -94,7 +94,7 @@ export default function App() {
             <Link href="https://uncaus.edu.ar/">Nuestra universidad</Link>
           </NavbarItem>
           <NavbarItem>
-            <Button as={Link} color="success" href="/" variant="flat">
+            <Button as={Link} color="success" href="https://drive.google.com/file/d/1g3o3tPQ1pQv2oLA1ZsHiPEHX8Z0TlJwq/view?usp=drive_link" variant="flat">
               Descargar App
             </Button>
           </NavbarItem>
